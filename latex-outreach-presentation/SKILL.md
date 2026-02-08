@@ -59,6 +59,7 @@ If a `pdflatex` error is reported, the skill **must automatically fix it** and r
 ### 2. Beamer Theme and Visual Design
 
 * Use a **clean, readable Beamer theme** with no navigational icons
+* Use 16:9 aspect ratio for the presentation, unless otherwise specified
 * Slide number should appear at bottom right but don't put the total slide number
 * Use beautiful color schemes and fonts always
 * Unless otherwise specified, text should be in light colors on a uniform black background
