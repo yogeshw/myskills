@@ -46,6 +46,7 @@ Research seminars for specialists and technical conference talks are **out of sc
   ```
 * Output **must compile cleanly with `pdflatex`**
 * Use only standard, widely available LaTeX packages
+* On the title slide only, include a logo at bottom right /home/yogesh/work/images/ncralogo.jpg which is 697x797 pixel image. 
 * Ensure:
 
   * No LaTeX compilation errors
