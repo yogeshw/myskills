@@ -126,9 +126,10 @@ Approximations and simplifications must be acknowledged.
 
 ### 7. Figures and Visual Explanations
 
-* Beautiful informative images will be central to the talk. All images sit in a common images folder. Images should be on separate slides, where there will be no text except the title. See example.md for how images are to be formatted. Suggest suitable images by adding latex comments to image slides. Add a credit line at the bottom of all images.
+* Beautiful, informative images will be central to the talk. All images sit in a common images folder. Images should be on separate slides, with no text except the title. See example.md for how images are to be formatted. Suggest suitable images by adding LaTeX comments to image slides. Add a credit line at the bottom of all images, with a hyperlink wherever possible.
 * Additional figures, if needed,  should be produced using **`tikz` and/or `pgfplots`**
 * Cartoon diagrams are preferred over plots unless quantitative insight is essential
+* Figures taken from papers will obviously be fully quantitative
 * Figures must:
 
   * Be clearly labeled
@@ -148,10 +149,10 @@ Approximations and simplifications must be acknowledged.
   ```
 * Links may point to:
 
-  * Reputable educational resources
+  * Journal or arxiv papers
   * Observatory or mission websites
   * Public data portals
-* Place links on dedicated “Further Reading” or summary slides
+* Place links inline e.g. while citing papers and/or on dedicated “Further Reading” or summary slides
 
 ---
 
@@ -192,7 +193,7 @@ Typical inputs may include:
 * Requests for conceptual diagrams
 * `pdflatex` error messages, if any
 
-Ask user for clarifications, if in doubt.
+Ask the user for clarifications, if in doubt.
 
 ---
 
