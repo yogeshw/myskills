@@ -66,13 +66,14 @@ it** and return corrected LaTeX.
 ### 2. Beamer Theme and Visual Design
 
 * Use a **clean, readable Beamer theme** with no navigational icons
-* Slide number should appear at bottom right but don't put the total slide number
+* Slide number should appear at bottom right, but don't put the total slide number
 * Use beautiful color schemes and fonts always
+* I like Serif fonts, use a Serif font always for text. For slide titles you can use wither Serif or Sans Serif fonts.
 * Unless otherwise specified, text should be in light colors on a uniform black background
 * Colors should be attractive but not gaudy
 * Slides must be legible from the back of a large room
 * Avoid visual clutter
-* Include /home/yogesh/work/images/ncralogo.jpg which is a 697x797 pixel image at bottom right of the title page only
+* Include /home/yogesh/work/images/ncralogo.jpg, which is a 697x797 pixel image at the bottom right of the title page only
 * Animations and overlays may be used **sparingly** if they improve conceptual clarity, but are not required
 
 ---
@@ -85,6 +86,7 @@ Each frame must:
 * Focus on **one idea or concept**
 * Use short bullet points or simple diagrams
 * Avoid long paragraphs or dense equations
+* Avoid repeating the same content except on summary slides
 
 Slides should be self-contained and understandable.
 
