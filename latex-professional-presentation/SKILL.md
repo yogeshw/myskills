@@ -11,13 +11,13 @@ handling figures
 ---
 
 # SKILL: LaTeX Beamer Presentation Authoring for Professional
-  Astronomers and Software Engineers
+  Astronomers, Software Engineers or non-astronomer Scientists
 
 ## Purpose
 
 This skill produces **clear, accurate, and visually clean LaTeX Beamer
 presentations** intended for **specialists** in software
-engineering/astronomy.
+engineering/astronomy/science.
 
 The goal is **technical understanding without loss of correctness**,
 while providing a broader perspective.
@@ -32,7 +32,7 @@ This skill applies **exclusively** to presentations created using
 Supported use cases include:
 
 * Astronomy workshop/conference/school talks
-* Interdisciplinary seminars
+* Interdisciplinary seminars to other scientists
 * Talks to software specialists working on astrnomy software
 
 Broad outreach talks are **out of scope** for this skill.
@@ -66,14 +66,13 @@ it** and return corrected LaTeX.
 ### 2. Beamer Theme and Visual Design
 
 * Use a **clean, readable Beamer theme** with no navigational icons
-* Slide number should appear at bottom right, but don't put the total slide number
+* Slide number should appear at bottom right but don't put the total slide number
 * Use beautiful color schemes and fonts always
-* I like Serif fonts, use a Serif font always for text. For slide titles you can use wither Serif or Sans Serif fonts.
 * Unless otherwise specified, text should be in light colors on a uniform black background
 * Colors should be attractive but not gaudy
 * Slides must be legible from the back of a large room
 * Avoid visual clutter
-* Include /home/yogesh/work/images/ncralogo.jpg, which is a 697x797 pixel image at the bottom right of the title page only
+* Include /home/yogesh/work/images/ncralogo.jpg which is a 697x797 pixel image at bottom right of the title page only
 * Animations and overlays may be used **sparingly** if they improve conceptual clarity, but are not required
 
 ---
@@ -85,8 +84,8 @@ Each frame must:
 * Have a clear, descriptive title
 * Focus on **one idea or concept**
 * Use short bullet points or simple diagrams
+* Excessive text on slide should be avoided
 * Avoid long paragraphs or dense equations
-* Avoid repeating the same content except on summary slides
 
 Slides should be self-contained and understandable.
 
@@ -110,7 +109,7 @@ Slides should be self-contained and understandable.
   * Models or interpretations
   * Open questions
 
-Approximations and simplifications must be acknowledged.
+Any approximations and simplifications used must be explicitly stated.
 
 ---
 
@@ -189,7 +188,7 @@ This skill must **not**:
 
 Typical inputs may include:
 
-* Target audience background (e.g. astronomers, software engineers, policy makers)
+* Target audience background (e.g. astronomers, software engineers, policy makers, non-astronomer scientists)
 * Talk duration or approximate slide count
 * Topic and desired depth
 * Requests for conceptual diagrams
