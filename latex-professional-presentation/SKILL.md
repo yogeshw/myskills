@@ -96,6 +96,7 @@ Slides should be self-contained and understandable.
 * Clear, neutral, and explanatory
 * Technically accurate but **jargon-minimized**
 * No conversational filler or rhetorical questions
+* Do not use business phrases like **Key Takeaways** Use more formal wording like **Summary**
 
 ---
 
@@ -194,7 +195,7 @@ Typical inputs may include:
 * Requests for conceptual diagrams
 * `pdflatex` error messages, if any
 
-Ask the user for clarifications, if in doubt.
+Always ask the user for clarifications, if in doubt.
 
 ---
 
