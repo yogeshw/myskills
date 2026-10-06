@@ -3,6 +3,29 @@ name: latex-astronomy-lecture-course
 description: Create rigorous LaTeX Beamer lectures for graduate astronomy courses aimed at PhD students, postdoctoral researchers, and early-career faculty. Use this skill for astronomy course lectures, lecture series, or pedagogical seminar presentations that require undergraduate-physics-level mathematics as a prerequisite.
 ---
 
+# Contents
+
+- [Purpose](#purpose)
+- [Scope](#scope)
+- [Core Output Requirements](#core-output-requirements)
+  - [1. Document Class and Compilation](#1-document-class-and-compilation)
+  - [2. Theme and Visual Design](#2-theme-and-visual-design)
+  - [3. Course-Level Structure](#3-course-level-structure)
+  - [4. Frame Design](#4-frame-design)
+- [Mathematics and Quantitative Reasoning](#mathematics-and-quantitative-reasoning)
+  - [Expected Level](#expected-level)
+  - [Derivations](#derivations)
+  - [Quantitative Examples](#quantitative-examples)
+- [Scientific Accuracy and Pedagogy](#scientific-accuracy-and-pedagogy)
+- [Figures, Data, and Visual Explanations](#figures-data-and-visual-explanations)
+- [Writing Style](#writing-style)
+- [References and Links](#references-and-links)
+- [Error Handling and Revision](#error-handling-and-revision)
+- [Explicit Non-Goals](#explicit-non-goals)
+- [Expected User Inputs](#expected-user-inputs)
+- [Output Guarantee](#output-guarantee)
+
+
 # Skill Instructions
 
 Follow these instructions when creating or revising a LaTeX Beamer

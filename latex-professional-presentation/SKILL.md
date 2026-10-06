@@ -3,6 +3,25 @@ name: latex-professional-presentation
 description: Instructions on building a latex beamer presentation for a professional astronomer or software engineer audience. Use this skill when asked to create a latex beamer presentation for a professional audience.
 ---
 
+# Contents
+
+- [Purpose](#purpose)
+- [Scope](#scope)
+- [Core Output Requirements](#core-output-requirements)
+  - [1. Document Class and Compilation](#1-document-class-and-compilation)
+  - [2. Beamer Theme and Visual Design](#2-beamer-theme-and-visual-design)
+  - [3. Frame Structure](#3-frame-structure)
+  - [4. Writing Style and Tone](#4-writing-style-and-tone)
+  - [5. Scientific Accuracy and Pedagogy](#5-scientific-accuracy-and-pedagogy)
+  - [6. Mathematics and Quantitative Content](#6-mathematics-and-quantitative-content)
+  - [7. Figures and Visual Explanations](#7-figures-and-visual-explanations)
+  - [8. Links and Further Reading](#8-links-and-further-reading)
+  - [9. Error Handling and Self-Correction](#9-error-handling-and-self-correction)
+- [Explicit Non-Goals](#explicit-non-goals)
+- [Expected User Inputs](#expected-user-inputs)
+- [Output Guarantee](#output-guarantee)
+
+
 # Skill Instructions
 
 Follow the instructions below. See example.md for latex code for

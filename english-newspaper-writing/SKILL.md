@@ -3,6 +3,25 @@ name: english-newspaper-writing
 description: Instructions for writing English newspaper-style astronomy research articles for well educated general readers. Use this skill when asked to write, edit, outline, or revise a newspaper article on a recent astronomy or space-science topic of public interest for college-graduate readers.
 ---
 
+# Contents
+
+- [Purpose](#purpose)
+- [Scope](#scope)
+- [Core Workflow](#core-workflow)
+  - [1. Verify the News Context](#1-verify-the-news-context)
+  - [2. Article Structure](#2-article-structure)
+  - [3. Writing Style and Tone](#3-writing-style-and-tone)
+  - [4. Scientific Accuracy](#4-scientific-accuracy)
+  - [5. Numbers, Scale, and Comparisons](#5-numbers-scale-and-comparisons)
+  - [6. Quotes and Attribution](#6-quotes-and-attribution)
+  - [7. Headline and Standfirst](#7-headline-and-standfirst)
+  - [8. Links and Sources](#8-links-and-sources)
+  - [9. Editing and Revision](#9-editing-and-revision)
+- [Explicit Non-Goals](#explicit-non-goals)
+- [Expected User Inputs](#expected-user-inputs)
+- [Output Guarantee](#output-guarantee)
+
+
 # Skill Instructions
 
 Follow the instructions below. See example.md for a model article structure and paragraph-level guidance.

@@ -3,6 +3,26 @@ name: latex-conference-proceeding
 description: Autogenerate a LaTeX conference proceedings article from user-supplied content instructions, optionally using a user-supplied conference template (class file, style file, or formatting instructions). Use this skill when asked to write, draft, or revise a conference proceedings paper, workshop proceedings contribution, or similar short formal scientific article, as opposed to a beamer talk or a full journal manuscript.
 ---
 
+# Contents
+
+- [Purpose](#purpose)
+- [Scope](#scope)
+- [Core Output Requirements](#core-output-requirements)
+  - [1. Template Handling](#1-template-handling)
+  - [2. Compilation](#2-compilation)
+  - [3. Content Fidelity](#3-content-fidelity)
+  - [4. Document Structure](#4-document-structure)
+  - [5. Formal Language and Register](#5-formal-language-and-register)
+  - [6. Length and Page Limits](#6-length-and-page-limits)
+  - [7. Figures and Tables](#7-figures-and-tables)
+  - [8. Equations](#8-equations)
+  - [9. Citations and Bibliography](#9-citations-and-bibliography)
+  - [10. Error Handling and Revision](#10-error-handling-and-revision)
+- [Explicit Non-Goals](#explicit-non-goals)
+- [Expected User Inputs](#expected-user-inputs)
+- [Output Guarantee](#output-guarantee)
+
+
 # Skill Instructions
 
 Follow the instructions below when drafting or revising a LaTeX conference
