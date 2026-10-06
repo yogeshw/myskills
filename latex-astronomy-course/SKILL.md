@@ -212,6 +212,7 @@ tools.
 
 Visuals are central to the lecture and must do explanatory work.
 
+* A large corpus of images is available in `/home/yogesh/work/images`. Before suggesting or sourcing an image, consult the `DESCRIPTION` file in that directory, which contains a brief description of each image, and use it to find appropriate images. Use matching images from this directory where suitable; credit them using the source citations in `DESCRIPTION`.
 * Place supplied images in the common images directory and use the macros in
   `example.md`. Prefer `\myfigbig` for most image slides.
 * For an image-led frame, use no text beyond the title, a concise credit line,

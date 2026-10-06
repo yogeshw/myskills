@@ -155,6 +155,7 @@ exactly when it specifies them; the list above is only a fallback default.
 
 ### 7. Figures and Tables
 
+* A large corpus of images is available in `/home/yogesh/work/images`. Before suggesting or sourcing an image, consult the `DESCRIPTION` file in that directory, which contains a brief description of each image, and use it to find appropriate images. Use matching images from this directory where suitable; credit them using the source citations in `DESCRIPTION`.
 * Follow the template's figure/table conventions (placement, caption
   position, numbering, allowed formats). See `example.md` for a generic
   convention (captions below figures, above tables) to use when the template

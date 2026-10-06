@@ -148,6 +148,7 @@ Any approximations and simplifications used must be explicitly stated.
 
 ### 7. Figures and Visual Explanations
 
+* A large corpus of images is available in `/home/yogesh/work/images`. Before suggesting or sourcing an image, consult the `DESCRIPTION` file in that directory, which contains a brief description of each image, and use it to find appropriate images. Use matching images from this directory where suitable; credit them using the source citations in `DESCRIPTION`.
 * Beautiful, informative images will be central to the talk. All images sit in a common images folder. Images should be on separate slides, with no text except the title. See example.md for how images are to be formatted. Suggest suitable images by adding LaTeX comments to image slides. Add a credit line at the bottom of all images, with a hyperlink wherever possible.
 * Additional figures, if needed,  should be produced using **`tikz` and/or `pgfplots`**
 * Cartoon diagrams are preferred over plots unless quantitative insight is essential
