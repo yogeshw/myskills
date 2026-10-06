@@ -22,6 +22,7 @@ description: Create rigorous LaTeX Beamer lectures for graduate astronomy course
 - [References and Links](#references-and-links)
 - [Error Handling and Revision](#error-handling-and-revision)
 - [Explicit Non-Goals](#explicit-non-goals)
+- [Completion and Stopping Rules](#completion-and-stopping-rules)
 - [Expected User Inputs](#expected-user-inputs)
 - [Output Guarantee](#output-guarantee)
 
@@ -285,6 +286,17 @@ This skill must not:
 * Use equations so densely that the lecture cannot be followed live.
 * Invent data, references, images, citations, or observational conclusions.
 * Use formats other than LaTeX Beamer.
+
+---
+
+## Completion and Stopping Rules
+
+* Done means: a complete Beamer `.tex` file for each requested lecture that compiles with `pdflatex`, covers every requested topic, and includes the derivations and examples the lecture needs.
+* If level, duration, or prerequisites are unstated, assume the defaults in this skill, state them in one line, and proceed. Stop and ask only when the lecture topic is unknown or a pedagogical choice cannot be resolved from the request.
+* Mark anything you could not confirm, and say where you looked; never present an unverified fact, link, or reference as settled.
+* Deliver the finished result, not an outline or a plan, unless an outline is what was requested.
+* Keep any note to the user brief and focused on what was done and what assumptions were made. Explain a choice in a sentence or two when asked; do not narrate internal reasoning.
+* Once the user has settled a point, treat it as done and do not reopen it unless asked or a real problem appears.
 
 ---
 

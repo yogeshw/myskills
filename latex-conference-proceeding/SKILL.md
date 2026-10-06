@@ -19,6 +19,7 @@ description: Autogenerate a LaTeX conference proceedings article from user-suppl
   - [9. Citations and Bibliography](#9-citations-and-bibliography)
   - [10. Error Handling and Revision](#10-error-handling-and-revision)
 - [Explicit Non-Goals](#explicit-non-goals)
+- [Completion and Stopping Rules](#completion-and-stopping-rules)
 - [Expected User Inputs](#expected-user-inputs)
 - [Output Guarantee](#output-guarantee)
 
@@ -212,6 +213,17 @@ This skill must not:
 * Silently exceed or ignore a stated page/word limit.
 * Produce beamer slides, posters, or outreach copy under this skill.
 * Loosen formal register into conversational or promotional language.
+
+---
+
+## Completion and Stopping Rules
+
+* Done means: a complete `.tex` article that compiles, follows the supplied template and page limit, contains every required section, and uses only references the user supplied or that you verified.
+* Keep going without asking when a step needs no user input. Stop and ask only when the proceedings series or template is unknown and cannot be recovered from the inputs, or before cutting required content to meet a page limit.
+* Mark anything you could not confirm, and say where you looked; never present an unverified fact, link, or reference as settled.
+* Deliver the finished result, not an outline or a plan, unless an outline is what was requested.
+* Keep any note to the user brief and focused on what was done and what assumptions were made. Explain a choice in a sentence or two when asked; do not narrate internal reasoning.
+* Once the user has settled a point, treat it as done and do not reopen it unless asked or a real problem appears.
 
 ---
 

@@ -18,6 +18,7 @@ description: Instructions for writing English newspaper-style astronomy research
   - [8. Links and Sources](#8-links-and-sources)
   - [9. Editing and Revision](#9-editing-and-revision)
 - [Explicit Non-Goals](#explicit-non-goals)
+- [Completion and Stopping Rules](#completion-and-stopping-rules)
 - [Expected User Inputs](#expected-user-inputs)
 - [Output Guarantee](#output-guarantee)
 
@@ -262,6 +263,17 @@ This skill must **not**:
 * Invent quotes, data, publication details, or expert reactions
 * Use sensational, clickbait, or "breakthrough" language without strong justification
 * Present speculation about alien life, habitability, or cosmic significance as fact
+
+---
+
+## Completion and Stopping Rules
+
+* Done means: a complete article of the requested length (default 800-1,000 words) with headline, standfirst, body, and source list, based on a verified current state of the story.
+* Make conservative assumptions about missing details, state them briefly, and proceed. Stop and ask only when the missing information materially changes the article.
+* Mark anything you could not confirm, and say where you looked; never present an unverified fact, link, or reference as settled.
+* Deliver the finished result, not an outline or a plan, unless an outline is what was requested.
+* Keep any note to the user brief and focused on what was done and what assumptions were made. Explain a choice in a sentence or two when asked; do not narrate internal reasoning.
+* Once the user has settled a point, treat it as done and do not reopen it unless asked or a real problem appears.
 
 ---
 

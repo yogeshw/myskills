@@ -3,6 +3,27 @@ name: marathi-newspaper-writing
 description: Instructions for writing Marathi newspaper-style astronomy research articles for well educated general readers. Use this skill when asked to write, edit, outline, or revise a newspaper article on a recent astronomy or space-science topic of public interest for college-graduate readers.
 ---
 
+# Contents
+
+- [Purpose](#purpose)
+- [Scope](#scope)
+- [Core Workflow](#core-workflow)
+  - [1. Verify the News Context](#1-verify-the-news-context)
+  - [2. Article Structure](#2-article-structure)
+  - [3. Language and Terminology](#3-language-and-terminology)
+  - [4. Writing Style and Tone](#4-writing-style-and-tone)
+  - [5. Scientific Accuracy](#5-scientific-accuracy)
+  - [6. Numbers, Scale, and Comparisons](#6-numbers-scale-and-comparisons)
+  - [7. Quotes and Attribution](#7-quotes-and-attribution)
+  - [8. Headline and Standfirst](#8-headline-and-standfirst)
+  - [9. Links and Sources](#9-links-and-sources)
+  - [10. Editing and Revision](#10-editing-and-revision)
+- [Explicit Non-Goals](#explicit-non-goals)
+- [Completion and Stopping Rules](#completion-and-stopping-rules)
+- [Expected User Inputs](#expected-user-inputs)
+- [Output Guarantee](#output-guarantee)
+
+
 # Skill Instructions
 
 Follow the instructions below. See example.md for a model article
@@ -262,6 +283,17 @@ This skill must **not**:
 * Invent quotes, data, publication details, or expert reactions
 * Use sensational, clickbait, or "breakthrough" language without strong justification
 * Present speculation about alien life, habitability, or cosmic significance as fact
+
+---
+
+## Completion and Stopping Rules
+
+* Done means: a complete article of the requested length (default 800-1,000 words) with headline, standfirst, body, and source list, based on a verified current state of the story.
+* Make conservative assumptions about missing details, state them briefly, and proceed. Stop and ask only when the missing information materially changes the article.
+* Mark anything you could not confirm, and say where you looked; never present an unverified fact, link, or reference as settled.
+* Deliver the finished result, not an outline or a plan, unless an outline is what was requested.
+* Keep any note to the user brief and focused on what was done and what assumptions were made. Explain a choice in a sentence or two when asked; do not narrate internal reasoning.
+* Once the user has settled a point, treat it as done and do not reopen it unless asked or a real problem appears.
 
 ---
 

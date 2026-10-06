@@ -18,6 +18,7 @@ description: Instructions on building a latex beamer presentation for a professi
   - [8. Links and Further Reading](#8-links-and-further-reading)
   - [9. Error Handling and Self-Correction](#9-error-handling-and-self-correction)
 - [Explicit Non-Goals](#explicit-non-goals)
+- [Completion and Stopping Rules](#completion-and-stopping-rules)
 - [Expected User Inputs](#expected-user-inputs)
 - [Output Guarantee](#output-guarantee)
 
@@ -204,6 +205,17 @@ This skill must **not**:
 
 ---
 
+## Completion and Stopping Rules
+
+* Done means: a complete `.tex` file for the stated audience and duration that compiles with `pdflatex` with no errors other than the occasional overflow, with every requested topic covered.
+* If audience, topic, or duration is missing, make conservative assumptions, state them in one line, and proceed. Stop and ask only when the topic itself is unknown or the request is contradictory.
+* Mark anything you could not confirm, and say where you looked; never present an unverified fact, link, or reference as settled.
+* Deliver the finished result, not an outline or a plan, unless an outline is what was requested.
+* Keep any note to the user brief and focused on what was done and what assumptions were made. Explain a choice in a sentence or two when asked; do not narrate internal reasoning.
+* Once the user has settled a point, treat it as done and do not reopen it unless asked or a real problem appears.
+
+---
+
 ## Expected User Inputs
 
 Typical inputs may include:
@@ -214,7 +226,6 @@ Typical inputs may include:
 * Requests for conceptual diagrams
 * `pdflatex` error messages, if any
 
-Always ask the user for clarifications, if in doubt.
 
 ---
 
